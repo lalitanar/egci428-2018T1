@@ -1,6 +1,6 @@
 package com.egci428.ex_listview
 
-
+import android.content.Context
 import android.graphics.Color
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
@@ -9,9 +9,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
+import android.widget.ListView
 import android.widget.TextView
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.row_main.*
 import kotlinx.android.synthetic.main.row_main.view.*
 
 
@@ -23,11 +25,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         main_listView.adapter = myCustomAdapter()
-
-        main_listView.setOnItemClickListener { adapterView, view, position, id ->
-            val item = adapterView.getItemAtPosition(position) as String
-            Toast.makeText(this, "${item} $position", Toast.LENGTH_LONG).show()
-        }
     }
 
     private class myCustomAdapter: BaseAdapter(){
@@ -81,6 +78,15 @@ class MainActivity : AppCompatActivity() {
 
                 rowMain.setBackgroundColor(whiteColor)
             }
+
+            rowMain?.setOnClickListener {
+                rowMain.animate().setDuration(1500).alpha(0F).withEndAction(Runnable {
+                    names.removeAt(position)
+                    notifyDataSetChanged()
+                    rowMain.setAlpha(1.0F)
+                })
+            }
+
             return rowMain
         }
 
