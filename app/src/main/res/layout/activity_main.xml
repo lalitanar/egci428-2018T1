@@ -4,12 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.egci428.ex_listview.MainActivity">
+    tools:context="com.egci428.ex_listactivitymodel.MainActivity">
 
-    <ListView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/main_listView">
-    </ListView>
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/imageView"
+            android:minHeight="20dp"
+            android:minWidth="20dp"
+            android:nestedScrollingEnabled="true"
+            android:src="@drawable/egco"
+            android:scaleType="fitCenter"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:maxWidth="50dp"
+            android:maxHeight="50dp" />
+
+        <TextView
+            android:id="@+id/outputText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView"
+            android:layout_marginLeft="20dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:text="Course Catelog"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView android:text="text" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/courseListView"
+            android:layout_marginTop="31dp"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
