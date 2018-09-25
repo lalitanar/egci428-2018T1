@@ -1,17 +1,19 @@
 package com.egci428.ex_listview
 
-import android.content.Context
+
 import android.graphics.Color
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
-import android.widget.ListView
 import android.widget.TextView
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.row_main.view.*
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -20,26 +22,26 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //val redColor = Color.parseColor("#FF0000")
-        //listView.setBackgroundColor(redColor)
+        main_listView.adapter = myCustomAdapter()
 
-        main_listView.adapter = myCustomAdapter(this)
-
-
-
+        main_listView.setOnItemClickListener { adapterView, view, position, id ->
+            val item = adapterView.getItemAtPosition(position) as String
+            Toast.makeText(this, "${item} $position", Toast.LENGTH_LONG).show()
+        }
     }
 
-    private class myCustomAdapter(context: Context): BaseAdapter(){
+    private class myCustomAdapter: BaseAdapter(){
 
-
-        private val mContext: Context
         private val names = arrayListOf<String>(
+                "Donald Trump", "Steve Jobs", "Tim Cook", "Mark Zuckerberg", "Barack Obama",
+                "Donald Trump", "Steve Jobs", "Tim Cook", "Mark Zuckerberg", "Barack Obama",
+                "Donald Trump", "Steve Jobs", "Tim Cook", "Mark Zuckerberg", "Barack Obama",
+                "Donald Trump", "Steve Jobs", "Tim Cook", "Mark Zuckerberg", "Barack Obama",
+                "Donald Trump", "Steve Jobs", "Tim Cook", "Mark Zuckerberg", "Barack Obama",
+                "Donald Trump", "Steve Jobs", "Tim Cook", "Mark Zuckerberg", "Barack Obama",
                 "Donald Trump", "Steve Jobs", "Tim Cook", "Mark Zuckerberg", "Barack Obama"
         )
 
-        init {
-            mContext = context
-        }
         override fun getCount(): Int {
             return names.size
         }
@@ -49,20 +51,29 @@ class MainActivity : AppCompatActivity() {
         }
 
         override fun getItem(position: Int): Any {
-            return "Test String"
+            return names[position]
         }
-
-
 
         override fun getView(position: Int, convertView: View?, viewGroup: ViewGroup?): View {
             val whiteColor = Color.parseColor("#FFFFFF")
             val greyColor = Color.parseColor("#E0E0E0")
-            val layoutInflator = LayoutInflater.from(mContext)
-            val rowMain = layoutInflator.inflate(R.layout.row_main, viewGroup, false)
+            val rowMain: View
 
+            //Checking if convertView is null, meaning we have to inflate a new row
+            if (convertView == null){
+                val layoutInflator = LayoutInflater.from(viewGroup!!.context)
+                rowMain = layoutInflator.inflate(R.layout.row_main, viewGroup, false)
+                Log.d("getView", "Calling findViewById which is expensive")
+                val viewHolder = ViewHolder(rowMain.name_textView, rowMain.position_textView)
+                rowMain.tag = viewHolder
+            } else {
+                //well, we have our row as convertView, so just set rowMain as that view
+                rowMain = convertView
+            }
 
-            rowMain.name_textView.text = names.get(position)
-            rowMain.position_textView.text = "Row Number: $position"
+            val viewHolder = rowMain.tag as ViewHolder
+            viewHolder.nameTextView.text = names.get(position)
+            viewHolder.positionTextView.text = "Row Number: $position"
 
             if ((position%2)==1){
                 rowMain.setBackgroundColor(greyColor)
@@ -70,9 +81,9 @@ class MainActivity : AppCompatActivity() {
 
                 rowMain.setBackgroundColor(whiteColor)
             }
-
             return rowMain
         }
 
+        private class ViewHolder(val nameTextView: TextView, val positionTextView: TextView)
     }
 }
