@@ -5,11 +5,15 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
 import android.util.Log
 import android.widget.ArrayAdapter
+import android.content.Intent
+
+
 
 class MainActivity : AppCompatActivity() {
 
-
+    val DETAIL_REQUEST_CODE = 1001
     protected var data: ArrayList<Course>? = null
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,6 +31,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun displayDetail(course: Course) {
-        Log.d("MainActivity", "Displaying Course: " + course.title)
+        //Log.d("MainActivity","Displaying Course: "+ course.getTitle());
+        val intent = Intent(this, DetailActivity::class.java)
+        intent.putExtra("courseTitle", course.title)
+        intent.putExtra("courseDesc", course.description)
+        startActivityForResult(intent, DETAIL_REQUEST_CODE)
     }
 }
