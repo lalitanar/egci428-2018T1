@@ -1,4 +1,4 @@
-package com.egco428.ex02_pagetransition
+package com.egci428.ex_listactivity1
 
 import org.junit.Test
 
