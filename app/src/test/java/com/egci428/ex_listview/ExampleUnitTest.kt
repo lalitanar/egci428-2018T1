@@ -1,4 +1,4 @@
-package com.egci428.ex_listactivity1
+package com.egci428.ex_listview
 
 import org.junit.Test
 
