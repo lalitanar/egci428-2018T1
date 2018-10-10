@@ -1,4 +1,4 @@
-package com.egco428.ex02_pagetransition
+package com.egci428.ex_basicssqlite
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.egco428.ex02_pagetransition", appContext.packageName)
+        assertEquals("com.egci428.ex_basicssqlite", appContext.packageName)
     }
 }
