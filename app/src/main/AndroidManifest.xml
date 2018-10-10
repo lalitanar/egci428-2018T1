@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     package="com.egci428.ex_basicssqlite">
 =======
     package="com.egci428.ex_listactivitymodel">
@@ -10,6 +11,10 @@
     package="com.egco428.ex05_rippleview">
 >>>>>>> b4776da1945f59e836d56a1151650855e8690994
 
+=======
+    package="com.egco428.ex06_json">
+    <uses-permission android:name="android.permission.INTERNET"/>
+>>>>>>> b974af5e100e4a0e340f36d7257eaf6adfe7ca8f
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"

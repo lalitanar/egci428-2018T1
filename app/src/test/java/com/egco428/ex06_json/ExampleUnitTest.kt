@@ -1,4 +1,4 @@
-package com.egci428.ex_listactivitymodel
+package com.egco428.ex06_json
 
 import org.junit.Test
 

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 <<<<<<< HEAD
+<<<<<<< HEAD
     tools:context="com.egci428.ex_basicssqlite.MainActivity"
     tools:layout_editor_absoluteX="0dp"
     tools:layout_editor_absoluteY="81dp">
@@ -67,24 +68,23 @@
         android:nestedScrollingEnabled="true"
         android:scaleType="fitCenter"
         android:src="@drawable/egco" />
+=======
+    tools:context=".MainActivity">
+>>>>>>> b974af5e100e4a0e340f36d7257eaf6adfe7ca8f
 
     <TextView
-        android:id="@+id/outputText"
-        android:layout_width="273dp"
-        android:layout_height="83dp"
-        android:layout_alignBottom="@+id/imageView"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_toEndOf="@+id/imageView"
-        android:gravity="center"
-        android:text="Course Catelog"
+        android:id="@+id/textView"
+        android:layout_width="337dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Hello World!"
         android:textColor="@android:color/holo_blue_dark"
-        android:textSize="28sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        tools:layout_editor_absoluteY="0dp" />
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
+<<<<<<< HEAD
     <ListView
         android:id="@+id/list"
         android:layout_width="match_parent"
@@ -102,5 +102,16 @@
         android:layout_height="match_parent"
         />
 >>>>>>> b4776da1945f59e836d56a1151650855e8690994
+=======
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:text="Submit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+>>>>>>> b974af5e100e4a0e340f36d7257eaf6adfe7ca8f
 
 </android.support.constraint.ConstraintLayout>

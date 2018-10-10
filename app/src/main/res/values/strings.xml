@@ -1,6 +1,7 @@
 <resources>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <string name="app_name">Ex_BasicSSQLite</string>
 =======
     <string name="app_name">ex_ListActivityModel</string>
@@ -9,4 +10,7 @@
 =======
     <string name="app_name">ex05_rippleView</string>
 >>>>>>> b4776da1945f59e836d56a1151650855e8690994
+=======
+    <string name="app_name">Ex06-JSon</string>
+>>>>>>> b974af5e100e4a0e340f36d7257eaf6adfe7ca8f
 </resources>
