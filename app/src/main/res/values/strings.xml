@@ -1,3 +1,8 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">Ex_BasicSSQLite</string>
+=======
+    <string name="app_name">ex_ListActivityModel</string>
+    <string name="TitleName">Course Name</string>
+>>>>>>> 12ae32acc5ea6622bd178b7ce1c5c35650cc020d
 </resources>
