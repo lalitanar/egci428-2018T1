@@ -9,6 +9,7 @@
     tools:layout_editor_absoluteX="0dp"
     tools:layout_editor_absoluteY="81dp">
 
+<<<<<<< HEAD
     <LinearLayout
         android:id="@+id/group"
         android:layout_width="wrap_content"
@@ -94,5 +95,12 @@
         app:layout_constraintTop_toBottomOf="@+id/outputText"
         tools:layout_editor_absoluteX="0dp" />
 >>>>>>> 12ae32acc5ea6622bd178b7ce1c5c35650cc020d
+=======
+    <r21nomi.com.glrippleview.GLRippleView
+        android:id="@+id/glView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+>>>>>>> b4776da1945f59e836d56a1151650855e8690994
 
 </android.support.constraint.ConstraintLayout>

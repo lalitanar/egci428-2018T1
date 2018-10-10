@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 <<<<<<< HEAD
+<<<<<<< HEAD
     package="com.egci428.ex_basicssqlite">
 =======
     package="com.egci428.ex_listactivitymodel">
 >>>>>>> 12ae32acc5ea6622bd178b7ce1c5c35650cc020d
+=======
+    package="com.egco428.ex05_rippleview">
+>>>>>>> b4776da1945f59e836d56a1151650855e8690994
 
     <application
         android:allowBackup="true"
