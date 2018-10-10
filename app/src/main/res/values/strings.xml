@@ -1,16 +1,3 @@
 <resources>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     <string name="app_name">Ex_BasicSSQLite</string>
-=======
-    <string name="app_name">ex_ListActivityModel</string>
-    <string name="TitleName">Course Name</string>
->>>>>>> 12ae32acc5ea6622bd178b7ce1c5c35650cc020d
-=======
-    <string name="app_name">ex05_rippleView</string>
->>>>>>> b4776da1945f59e836d56a1151650855e8690994
-=======
-    <string name="app_name">Ex06-JSon</string>
->>>>>>> b974af5e100e4a0e340f36d7257eaf6adfe7ca8f
 </resources>

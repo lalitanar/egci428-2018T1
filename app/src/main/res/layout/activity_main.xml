@@ -4,13 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
-<<<<<<< HEAD
     tools:context="com.egci428.ex_basicssqlite.MainActivity"
     tools:layout_editor_absoluteX="0dp"
     tools:layout_editor_absoluteY="81dp">
 
-<<<<<<< HEAD
     <LinearLayout
         android:id="@+id/group"
         android:layout_width="wrap_content"
@@ -52,66 +49,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/group" />
-=======
-    tools:context="com.egci428.ex_listactivitymodel.MainActivity">
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:maxHeight="50dp"
-        android:maxWidth="50dp"
-        android:minHeight="20dp"
-        android:minWidth="20dp"
-        android:nestedScrollingEnabled="true"
-        android:scaleType="fitCenter"
-        android:src="@drawable/egco" />
-=======
-    tools:context=".MainActivity">
->>>>>>> b974af5e100e4a0e340f36d7257eaf6adfe7ca8f
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="337dp"
-        android:layout_height="31dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="30dp"
-        android:text="Hello World!"
-        android:textColor="@android:color/holo_blue_dark"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-<<<<<<< HEAD
-    <ListView
-        android:id="@+id/list"
-        android:layout_width="match_parent"
-        android:layout_height="408dp"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/imageView"
-        android:layout_marginTop="6dp"
-        app:layout_constraintTop_toBottomOf="@+id/outputText"
-        tools:layout_editor_absoluteX="0dp" />
->>>>>>> 12ae32acc5ea6622bd178b7ce1c5c35650cc020d
-=======
-    <r21nomi.com.glrippleview.GLRippleView
-        android:id="@+id/glView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        />
->>>>>>> b4776da1945f59e836d56a1151650855e8690994
-=======
-    <Button
-        android:id="@+id/submitBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="40dp"
-        android:text="Submit"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
->>>>>>> b974af5e100e4a0e340f36d7257eaf6adfe7ca8f
 
 </android.support.constraint.ConstraintLayout>
