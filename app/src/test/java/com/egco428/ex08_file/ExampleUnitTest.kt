@@ -1,4 +1,4 @@
-package com.egci428.ex_basicssqlite
+package com.egco428.ex08_file
 
 import org.junit.Test
 
