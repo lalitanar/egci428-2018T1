@@ -1,4 +1,4 @@
-package com.egco428.ex08_file
+package com.egco428.ex09_accelerometer
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.egco428.ex08_file", appContext.packageName)
+        assertEquals("com.egco428.ex09_accelerometer", appContext.packageName)
     }
 }

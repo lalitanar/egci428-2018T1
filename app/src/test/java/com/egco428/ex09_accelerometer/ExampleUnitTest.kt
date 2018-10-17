@@ -1,4 +1,4 @@
-package com.egco428.ex08_file
+package com.egco428.ex09_accelerometer
 
 import org.junit.Test
 
