@@ -1,4 +1,4 @@
-package com.egco428.ex12_swipescreen
+package com.egco428.ex13_camera
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.egco428.ex12_swipescreen", appContext.packageName)
+        assertEquals("com.egco428.ex13_camera", appContext.packageName)
     }
 }

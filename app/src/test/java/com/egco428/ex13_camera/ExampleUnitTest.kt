@@ -1,4 +1,4 @@
-package com.egco428.ex12_swipescreen
+package com.egco428.ex13_camera
 
 import org.junit.Test
 
