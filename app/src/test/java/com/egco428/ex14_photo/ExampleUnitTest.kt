@@ -1,4 +1,4 @@
-package com.egco428.ex13_camera
+package com.egco428.ex14_photo
 
 import org.junit.Test
 
