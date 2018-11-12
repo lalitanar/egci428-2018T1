@@ -1,4 +1,4 @@
-package com.egco428.ex09_accelerometer
+package com.egco428.ex10_singletouch
 
 import org.junit.Test
 
