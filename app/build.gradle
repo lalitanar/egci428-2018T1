@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.egco428.ex14_photo"
+        applicationId "com.egco428.ex15_actionbar"
         minSdkVersion 24
         targetSdkVersion 28
         versionCode 1

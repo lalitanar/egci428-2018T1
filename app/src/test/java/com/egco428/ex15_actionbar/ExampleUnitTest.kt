@@ -1,4 +1,4 @@
-package com.egco428.ex14_photo
+package com.egco428.ex15_actionbar
 
 import org.junit.Test
 
