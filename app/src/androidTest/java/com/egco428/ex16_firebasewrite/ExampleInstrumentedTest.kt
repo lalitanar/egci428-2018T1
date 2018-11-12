@@ -1,4 +1,4 @@
-package com.egco428.ex15_actionbar
+package com.egco428.ex16_firebasewrite
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.egco428.ex15_actionbar", appContext.packageName)
+        assertEquals("com.egco428.ex16_firebasewrite", appContext.packageName)
     }
 }
