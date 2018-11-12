@@ -1,35 +1,35 @@
 {
   "project_info": {
-    "project_number": "616423037015",
-    "firebase_url": "https://egci428-firebase.firebaseio.com",
-    "project_id": "egci428-firebase",
-    "storage_bucket": "egci428-firebase.appspot.com"
+    "project_number": "409992306868",
+    "firebase_url": "https://ex17firebaselistview-47d35.firebaseio.com",
+    "project_id": "ex17firebaselistview-47d35",
+    "storage_bucket": "ex17firebaselistview-47d35.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:616423037015:android:e2869a29040c7eb1",
+        "mobilesdk_app_id": "1:409992306868:android:c0e3bdf72ba77d34",
         "android_client_info": {
-          "package_name": "com.egco428.ex16_firebasewrite"
+          "package_name": "com.egco428.ex17_firebaselistview"
         }
       },
       "oauth_client": [
         {
-          "client_id": "616423037015-nfb3s3lvfsm5arff1dhosia5b2480jm4.apps.googleusercontent.com",
+          "client_id": "409992306868-gdhhktvb55g83uqh7svgcut2t8ca7nms.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.egco428.ex16_firebasewrite",
+            "package_name": "com.egco428.ex17_firebaselistview",
             "certificate_hash": "36c9883da8cd98f6e0336c7b68e8bde1861768a9"
           }
         },
         {
-          "client_id": "616423037015-fqulpnn8ofkj2arqrf4lh73sk054aod8.apps.googleusercontent.com",
+          "client_id": "409992306868-k2s3pa55ks266vhv2lr39upt4bn1efs9.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB2q1F36yKkZ3vUDTNxbfylA632dEBraao"
+          "current_key": "AIzaSyChYOc4ez4sR-xUOhU-coErvtIA9hykAcc"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "616423037015-fqulpnn8ofkj2arqrf4lh73sk054aod8.apps.googleusercontent.com",
+              "client_id": "409992306868-k2s3pa55ks266vhv2lr39upt4bn1efs9.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

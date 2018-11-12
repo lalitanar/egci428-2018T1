@@ -1,4 +1,4 @@
-package com.egco428.ex16_firebasewrite
+package com.egco428.ex17_firebaselistview
 
 import org.junit.Test
 
