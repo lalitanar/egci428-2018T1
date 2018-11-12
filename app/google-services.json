@@ -49,50 +49,6 @@
           "status": 2
         }
       }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:409992306868:android:d99a8b6dd4fb2381",
-        "android_client_info": {
-          "package_name": "com.egco428.ex18_fireimagestorage"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "409992306868-vior3spv2ov71268e9ue4pdev9cdclh7.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.egco428.ex18_fireimagestorage",
-            "certificate_hash": "36c9883da8cd98f6e0336c7b68e8bde1861768a9"
-          }
-        },
-        {
-          "client_id": "409992306868-k2s3pa55ks266vhv2lr39upt4bn1efs9.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyChYOc4ez4sR-xUOhU-coErvtIA9hykAcc"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "409992306868-k2s3pa55ks266vhv2lr39upt4bn1efs9.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
     }
   ],
   "configuration_version": "1"
