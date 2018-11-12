@@ -1,4 +1,4 @@
-package com.egco428.ex18_fireimagestorage
+package com.egci428.firedatabase
 
 import org.junit.Test
 
