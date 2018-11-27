@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Ex23_CloudMessage</string>
+    <string name="app_name">egci428_practice</string>
+    <string name="title_activity_maps">Map</string>
 </resources>

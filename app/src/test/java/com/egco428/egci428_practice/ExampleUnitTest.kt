@@ -1,4 +1,4 @@
-package com.egco428.ex23_cloudmessage
+package com.egco428.egci428_practice
 
 import org.junit.Test
 
