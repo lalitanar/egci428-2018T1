@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "927174688920",
+    "firebase_url": "https://ex23firenotification-b3137.firebaseio.com",
+    "project_id": "ex23firenotification-b3137",
+    "storage_bucket": "ex23firenotification-b3137.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927174688920:android:af1aacc90e68de38",
+        "android_client_info": {
+          "package_name": "com.egco428.ex23_cloudmessage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927174688920-20uhj8sb4sap2u4d6fck1hk24ss8r1hd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.egco428.ex23_cloudmessage",
+            "certificate_hash": "36c9883da8cd98f6e0336c7b68e8bde1861768a9"
+          }
+        },
+        {
+          "client_id": "927174688920-cirgsnfh706g8mu61gd5oksuvqobeflk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcGuCSZ8HphuZHbvqPIlKEg-sexUKiCKM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927174688920-cirgsnfh706g8mu61gd5oksuvqobeflk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927174688920:android:ed1c638749fdd14a",
+        "android_client_info": {
+          "package_name": "com.egco428.ex23_firenotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927174688920-t7ekm75ej24vse20kbb351qn6m8ej754.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.egco428.ex23_firenotification",
+            "certificate_hash": "36c9883da8cd98f6e0336c7b68e8bde1861768a9"
+          }
+        },
+        {
+          "client_id": "927174688920-cirgsnfh706g8mu61gd5oksuvqobeflk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcGuCSZ8HphuZHbvqPIlKEg-sexUKiCKM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927174688920-cirgsnfh706g8mu61gd5oksuvqobeflk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

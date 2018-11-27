@@ -1,12 +1,12 @@
-package com.egco428.ex21_simplenotification
+package com.egco428.ex23_cloudmessage
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
-class ResultActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_result)
+        setContentView(R.layout.activity_main)
     }
 }

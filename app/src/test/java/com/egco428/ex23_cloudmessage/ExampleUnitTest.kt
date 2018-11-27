@@ -1,4 +1,4 @@
-package com.egco428.ex21_simplenotification
+package com.egco428.ex23_cloudmessage
 
 import org.junit.Test
 
