@@ -1,4 +1,4 @@
-package com.egco428.ex20_currentlocation
+package com.egco428.ex21_simplenotification
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.egco428.ex20_currentlocation", appContext.packageName)
+        assertEquals("com.egco428.ex21_simplenotification", appContext.packageName)
     }
 }

@@ -1,4 +1,4 @@
-package com.egco428.ex20_currentlocation
+package com.egco428.ex21_simplenotification
 
 import org.junit.Test
 
